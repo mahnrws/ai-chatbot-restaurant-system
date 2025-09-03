@@ -27,7 +27,6 @@ The chatbot can greet customers, show the menu, handle table booking requests, a
    ```bash
    git clone https://github.com/mahnrws/ai-chatbot-restaurant-system.git
    cd ai-chatbot-restaurant-system
-````
 
 2. Install dependencies:
 
