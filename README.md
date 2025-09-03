@@ -1,7 +1,7 @@
 ````markdown
 # AI Restaurant Chatbot System
 
-An interactive **restaurant booking assistant chatbot** built with Python, scikit-learn, and regex-based NLP.  
+An interactive *restaurant booking assistant chatbot* built with Python, scikit-learn, and regex-based NLP.  
 The chatbot can greet customers, show the menu, handle table booking requests, and extract booking details (date, time, and number of people).
 
 ---
