@@ -1,22 +1,31 @@
-````markdown
 # AI Restaurant Chatbot System
 
-An interactive *restaurant booking assistant chatbot* built with Python, scikit-learn, and regex-based NLP.  
-The chatbot can greet customers, show the menu, handle table booking requests, and extract booking details (date, time, and number of people).
-
----
+An interactive restaurant booking assistant chatbot built with Python, scikit-learn, and regex-based NLP.  
+The chatbot can greet customers, show the menu, handle table booking requests, and extract booking details such as date, time, and number of people.
 
 ## Features
-- **Greetings**: Responds to basic greetings.
-- **Menu Display**: Lists available items in Starters, Main Course, Desserts, and Drinks.
-- **Table Booking**:
+- Greetings: Responds to basic greetings.
+- Menu Display: Lists available items in Starters, Main Course, Desserts, and Drinks.
+- Table Booking:
   - Detects booking intent from user queries.
-  - Extracts number of people, date, and time using regex and `dateparser`.
+  - Extracts number of people, date, and time using regex and dateparser.
   - Confirms booking once all details are provided.
-- **Goodbye Handling**: Politely ends the conversation.
+- Goodbye Handling: Politely ends the conversation.
 
----
+## Technologies Used
+- Python 3
+- scikit-learn (Naive Bayes for intent classification)
+- TfidfVectorizer (for text feature extraction)
+- Regex (for extracting structured booking details)
+- dateparser (for parsing natural language date/time inputs)
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mahnrws/ai-chatbot-restaurant-system.git
+   cd ai-chatbot-restaurant-system
+**
 ## Technologies Used
 - **Python 3**
 - **scikit-learn** (Naive Bayes for intent classification)
